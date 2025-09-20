@@ -1,1 +1,42 @@
-/*  your css code here. If applicable */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(161, 100, 223);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.btn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #5a2a8a; /* A slightly darker purple */
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Specific style for the stop button */
+.stop {
+    background-color: #4b2372; /* A distinct shade for stop */
+}
+
+.stop:hover {
+    background-color: #3e1c5e;
+}
